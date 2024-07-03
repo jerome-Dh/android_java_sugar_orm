@@ -1,1 +1,1 @@
-# Projet to illustrate Android + Java + Sugar ORM
+# Project to illustrate Android + Java + Sugar ORM
