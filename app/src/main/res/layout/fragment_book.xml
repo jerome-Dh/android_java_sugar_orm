@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/tableRowId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:labelFor="@id/title"
+            />
+
+        <EditText
+            android:id="@+id/title"
+            android:autofillHints="Title"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auteur"
+            android:labelFor="@id/auteur"
+            />
+
+        <EditText
+            android:id="@+id/auteur"
+            android:autofillHints=""
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre"
+            android:labelFor="@id/genre"
+            />
+
+        <EditText
+            android:id="@+id/genre"
+            android:inputType="text"
+            tools:ignore="LabelFor"
+            android:autofillHints="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date Publication"
+            android:labelFor="@id/datePub"
+            />
+
+        <EditText
+            android:id="@+id/datePub"
+            android:inputType="text"
+            android:autofillHints=""
+            tools:ignore="LabelFor"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resumé"
+            android:labelFor="@id/resume"
+            />
+
+        <EditText
+            android:id="@+id/resume"
+            android:autofillHints="Title"
+            android:inputType="textMultiLine"
+            tools:ignore="LabelFor" />
+    </TableRow>
+
+</LinearLayout>

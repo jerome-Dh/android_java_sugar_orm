@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gestion de livres</string>
+    <string name="create">Ajouter un livre</string>
+    <string name="update">Modifier un livre</string>
+    <string name="delete">Supprimer un livre</string>
+    <string name="rechercher">Recherche de livres</string>
+    <string name="gestion">Menu</string>
+</resources>
